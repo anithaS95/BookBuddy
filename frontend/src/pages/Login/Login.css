@@ -1,0 +1,60 @@
+/* General container styles */
+.ctn {
+    
+    max-width: 600px;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f951;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    
+  }
+
+  .container-lr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+
+  
+  
+  /* Title styles */
+  .ctn h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+  }
+  
+  /* Input field styles */
+  .ctn input {
+    width: 100%;
+    padding: 10px 60px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  .ctn button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e600fa;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 500px) {
+    .ctn {
+      width: 90%;
+    }
+  }
+  
